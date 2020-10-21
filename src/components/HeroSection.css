@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  background: url('/images-copy/header.jpg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -16,12 +16,22 @@ video {
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+
 }
 
 .hero-container > h1 {
+  position:absolute;
   color: #fff;
-  font-size: 100px;
-  margin-top: -100px;
+  font-size: 70px;
+  margin-top: -15%;
+  line-height: 30px;
+}
+
+.hero-container > h3 {
+  position:absolute;
+  margin-top: -8%;
+  color:#fff;
+  font-size: 60px;
 }
 
 .hero-container > p {

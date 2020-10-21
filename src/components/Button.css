@@ -11,16 +11,18 @@
 }
 
 .btn--primary {
-  background-color: var(--primary);
+  background-color: #edab18;
   color: #242424;
-  border: 1px solid var(--primary);
+  border: 2px solid #242424;
+  adding: 8px 20px;
 }
 
 .btn--outline {
   background-color: transparent;
+  box-shadow: 5px;
   color: #fff;
-  padding: 8px 20px;
-  border: 1px solid var(--primary);
+  padding: 8px 10px;
+  border: 2px solid #edab18;
   transition: all 0.3s ease-out;
 }
 
@@ -37,7 +39,7 @@
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
-  background: #fff;
+  background: #edab18;
   color: #242424;
   transition: 250ms;
 }

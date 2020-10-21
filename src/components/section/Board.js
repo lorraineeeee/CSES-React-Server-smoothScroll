@@ -1,10 +1,9 @@
 import React from 'react';
-
+import Cards from "../Cards";
 export default function Board(){
     return (
         <div id="board">
-            <h1>Board Member 2020</h1>
-            <p>name name name name</p>
+            <Cards />
         </div>
     );
 }
