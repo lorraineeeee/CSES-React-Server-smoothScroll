@@ -3,9 +3,17 @@
 
 section#events {
   padding: 50px 0;
-  background-color: #f5f5f9;
   background-image: url(img-4.jpg);
+  opacity:0.5;
+  position:absolute;
   background-size: cover;
+  top:-100;
+  bottom:-900;
+  right:0;
+  left:40;
+  width:auto;
+  height:auto;
+  z-index:-3;
 }
 
 section#events .section-container {

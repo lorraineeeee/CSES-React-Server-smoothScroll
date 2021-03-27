@@ -1,18 +1,35 @@
 section#about {
   padding: 50px 0;
-  background-color: #fff;
   bottom: 0;
   right: 0;
   /* FOR VERTICAL PILLARS */ }
+  section#about::before{
+    content:"";
+    background-image: url(img2.jpg);
+    opacity:0.5;
+    position:absolute;
+    background-size: cover;
+    top:-100;
+    bottom:-290;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+  }
   section#about .section-container {
     margin: 0 auto;
     max-width: 800px;
     text-align: center; }
     section#about .section-container h1 {
       color: #414141;
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: 70px;
+    }
     section#about .section-container p {
-      color: #414141; }
+      color: #414141;
+      font-size: 30px;
+    }
     section#about .section-container img {
       max-width: 90%;
       max-height: 400px; }
@@ -40,11 +57,15 @@ section#about {
     section#about .pillar:hover {
       margin-top: -15px; }
       section#about .pillar:hover h4 {
-        color: #edab18; }
+        color: white;
+
+      }
     section#about .pillar h4 {
       color: #414141;
       text-align: center;
-      font-weight: 400; }
+      font-weight: 400;
+      font-size: 30px;
+    }
     section#about .pillar .pillar-icon {
       position: absolute;
       margin-top: -75px;
@@ -76,4 +97,3 @@ section#about {
           border-left: 50px solid transparent;
           border-right: 50px solid transparent;
           border-bottom: 50px solid #fff; } }
-

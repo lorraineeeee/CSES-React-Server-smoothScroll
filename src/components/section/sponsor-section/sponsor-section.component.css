@@ -1,26 +1,43 @@
 section#sponsors {
   padding: 50px 0;
-  //background-image: url(img-4.jpg);
-  //background-size:cover;
-  //opacity:0.4;
+}
+section#sponsors::before{
+  content:"";
+  background-image: url(img-4.jpg);
+  opacity:0.3;
+  position:absolute;
+  background-size: cover;
+  top:0;
+  bottom:-30;
+  right:0;
+  left:0;
+  width:auto;
+  height:auto;
+  z-index:-3;
 }
 section#sponsors .section-container {
   margin: 0 auto;
   max-width: 1000px;
 }
 section#sponsors .section-container h1 {
-  color: #414141;
+  color: black;
   text-align: center;
-  font-weight: 1700; }
+  font-size: 70px;
+}
 section#sponsors .section-container p {
-  text-align: center; }
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
 section#sponsors .section-container .sponsor-container {
-  text-align: center; }
+  text-align: center;
+}
 section#sponsors .section-container .sponsor {
   max-height: 120px;
   max-width: 180px;
   margin: 5% 3%;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 .sponsor-lab-society {
   max-height: 120px;
@@ -28,7 +45,6 @@ section#sponsors .section-container .sponsor {
   margin: 5% 3%;
   vertical-align: middle;
   margin-bottom: 60px;
-  opacity: inherit;
 }
 
 section#sponsors .section-container .sponsor-big {
