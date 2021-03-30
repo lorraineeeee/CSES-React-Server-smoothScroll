@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import {Link } from "react-router-dom";
+import {BrowserRouter} from 'react-router-dom';
 
 function HeroSection() {
   return (
@@ -23,7 +25,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          Facebook Group
+        <a class="event-link-btn" href="https://www.facebook.com/csesucsd/">Facebook Group</a>
         </Button>
         <Button
           className='btns'
@@ -31,7 +33,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          Subscribe
+           <form action="//ucsd.us12.list-manage.com/subscribe/post?u=fe523e83d20e97f4c9c0a1071&amp;id=678953a0c1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">Subscribe</form>
         </Button>
       </div>
     </div>
