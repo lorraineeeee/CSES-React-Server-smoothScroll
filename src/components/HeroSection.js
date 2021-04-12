@@ -33,7 +33,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-           <form action="//ucsd.us12.list-manage.com/subscribe/post?u=fe523e83d20e97f4c9c0a1071&amp;id=678953a0c1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">Subscribe</form>
+        <a class="subscribe-link-btn" href="https://mailchi.mp/f32ba47310cc/subscribe">Subscribe</a>
         </Button>
       </div>
     </div>
