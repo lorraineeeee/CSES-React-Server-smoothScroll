@@ -12,10 +12,18 @@ function HeroSection() {
       <video src='/videos/video-2.mp4' autoPlay loop muted />
       <h1><img name="cseslogo" src="/images-copy/UCSanDiegoLogo-White.png"
                width = "280" height = "60" alt="logo"></img></h1>
-
-      <h3>Computer Science & Engineering Society</h3>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <p>
+      <h1>Computer Science & Engineering Society</h1>
+      </p>
       <br></br>
       <br></br>
       <p>Connecting CSE Community</p>
