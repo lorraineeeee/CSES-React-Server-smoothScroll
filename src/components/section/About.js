@@ -14,7 +14,7 @@ export default function About(){
                 <br></br>
                 <br></br>
                 <h3>At CSES, we aim to form a passionate community of computer scientists and engineers
-                    at UC San Diego. From tech talks, to social events, to outreach, we have a diver set of events
+                    at UC San Diego. From tech talks, to social events, to outreach, we have a diverse set of events
                     and activities that appeal to any computer scientist or engineer.</h3>
             </div>
         </section>
